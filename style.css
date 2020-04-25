@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav  {
+     position: relative;
+     height: 100px;
+    width: 850px;
+    border: 1px solid darkblue;
+    margin: 0 auto;
+    top: 60px;
+    
+
+    
+
+    
+} 
+
+.header {
+    
+    width: 850px;
+    height:  400px;
+    position: relative;
+    top: 40px;
+    background-color: mediumblue;
+    margin: 0 auto;
+}
+
+.header-background {
+    
+    height: 200px;
+    background-color: rgb(23, 30, 121);
+}
+.profileheader {
+    height: 200px;
+    width: 850px;
+    background-color: mediumblue;
+    border-bottom: 1px dotted black;
+    top: -250px;
+
+    
+}
+.profile-photo {
+         
+         background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-1/p240x240/90964823_10213234115406374_5170346278772539392_n.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=oXV5sAG5KDQAX8KlQ_i&_nc_ht=scontent-ort2-1.xx&_nc_tp=6&oh=f98e9705d6a2a4f67178bedf0108f735&oe=5EC7CC12);
+         background-repeat: no-repeat;
+         background-position: center;
+         position: relative;
+         height: 200px;
+         width: 200px;
+        border-radius: 60% ;
+       top: -250px;
+        left: 30px;
+        z-index: 2px;
+    }
+   
+    .profile-info h1  {
+        position: relative;
+        height: 100px;
+        width: 850px;
+        
+        top: -170px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+
+
+    }
+    
+    .columns {
+        width: 850px;
+        
+       
+        margin: 0 auto;
+        
+        
+        
+}
+    .column1 {
+        position: relative;
+        width: 328px;
+        height: 2000px;
+        background-color: yellowgreen;
+        float: left;
+        top: 200px;
+       }
+       .card {
+           width: 320px;
+           height: 200px;
+          
+        }
+        .card2 {
+            width: 200px;
+            height: 200px;
+           
+           
+        }
+        
+        .card3 {
+            top: -100px;
+            width: 100px;
+            height:  100px;
+            border: 2px red dotted;
+            border-radius: 60px;
+        }
+       
+       
+    .column2 {
+        position: relative;
+        width: 512px;
+        height: 2000px;
+        background-color: aquamarine;
+        float: right;
+        top: 300px;
+        
+    }
+  
+        
+    
+    
+    .buttons  div {
+        display: inline-block;
+        border: navy  solid;
+        border-color: navy;
+        border-style: solid;
+        border-radius: 50px;
+        background-color:lightblue;
+        
+        
+
+    }
+        .buttons div:hover{
+            position: relative;
+            background-color:lightblue;
+            cursor: pointer;
+           
+        }
+        .buttons  {
+
+            position: relative;
+            left:550px;
+           
+            top: 420px;
+            
+        }
+        
